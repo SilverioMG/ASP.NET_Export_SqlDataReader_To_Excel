@@ -1,4 +1,4 @@
-Protected Sub ExportarToExcel()
+Protected Sub ExportToExcel()
     Dim idCliente As Int16 = ComboProyectos.SelectedValue
     Dim conn As New SqlConnection(ConfigurationManager.ConnectionStrings("EUROPHONESTKConnectionString").ToString())
     Dim cmd As New SqlCommand()
